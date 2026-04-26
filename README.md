@@ -4,6 +4,7 @@
 This project demonstrates containerization of a frontend application using Docker and Nginx.
 
 ## Build Docker Image
+```bash
 docker build -t 3d-box-app .
 
 ## Run Container
