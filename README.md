@@ -6,6 +6,7 @@ This project demonstrates containerization of a frontend application using Docke
 ## Build Docker Image
 ```bash
 docker build -t 3d-box-app .
+```
 
 ## Run Container
 docker run -p 8082:80 3d-box-app
