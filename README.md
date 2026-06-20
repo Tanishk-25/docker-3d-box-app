@@ -74,16 +74,16 @@ http://44.211.244.124
 ## Screenshots
 
 ### GitHub Actions Workflow
-(Add Screenshot)
+![GitHub Actions](screenshots/github-actions.png)
 
 ### Docker Hub Repository
-(Add Screenshot)
+![Docker Hub](screenshots/dockerhub.png)
 
-### AWS EC2 Running Instance
-(Add Screenshot)
+### AWS EC2 Instance
+![AWS EC2](screenshots/ec2-instance.png)
 
-### Application Output
-(Add Screenshot)
+### Application Running on AWS
+![Application Output](screenshots/application-output.png)
 
 ---
 
@@ -91,12 +91,19 @@ http://44.211.244.124
 
 ```text
 .
-├── .github/workflows/
-│   └── deploy.yml
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── screenshots/
+│   ├── github-actions.png
+│   ├── dockerhub.png
+│   ├── ec2-instance.png
+│   └── application-output.png
 ├── Dockerfile
 ├── index.html
 ├── style.css
 ├── script.js
+├── .gitignore
 └── README.md
 ```
 
